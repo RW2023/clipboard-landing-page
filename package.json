@@ -1,0 +1,16 @@
+{
+  "name": "clipboard-landing-page",
+  "private": true,
+  "version": "1.0.0",
+  "description": "![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ryan Wilson",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
