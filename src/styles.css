@@ -1,8 +1,5 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-:root {
-    --strong-cyan: hsl(171, 66%, 44%);
-    --light-blue: hsl(233, 100%, 69%);
-}
+
 
