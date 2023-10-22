@@ -1,6 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./**/*.html', './src/**/*.{js,css}'],
+  purge:
+    process.env.NODE_ENV === 'production'
+      ? {
+          content: ['./**/*.html', './src/**/*.{js,css}'],
+          options: {
+            safelist: [], // Specify a safelist of classes that should not be purged
+          },
+        }
+      : false,
   theme: {
     extend: {
       colors: {
